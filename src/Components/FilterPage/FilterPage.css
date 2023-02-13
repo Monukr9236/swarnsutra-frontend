@@ -1,0 +1,38 @@
+.filter-section{
+    flex:0.3;
+    /* background-color: dodgerblue; */
+    border-right: 2px solid #777;
+ }
+ .category{
+    /* background-color: orange; */
+    text-align: start;
+    padding: 0rem 1rem;
+}
+.category-title{
+    width:50%;
+    border-bottom: 2px solid #777;
+}
+.category-item{
+    /* background-color: orange; */
+    display: flex;
+    gap:0.8rem;
+    margin-bottom: 0.5rem;
+}
+.linkname{
+   color:rgb(75, 75, 75);
+}
+.price-slider{
+    width: 60%;
+}
+
+@media screen and (max-width:768px) {
+
+    .filter-section{
+        flex:0.4;
+     }
+     .category-item{
+        gap:0.2rem;
+        margin-bottom: 0.5rem;
+    }
+     
+} 
